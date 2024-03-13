@@ -1,0 +1,244 @@
+* {
+    background-color: #3B3B3B !important;
+    font-family: "worksens";
+
+
+}
+
+a {
+    display: contents;
+}
+
+@font-face {
+    font-family: worksens;
+    src: url(fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-btn {
+    background-color: #A259FF !important;
+    border-radius: 20px !important;
+}
+
+.header-btn a {
+    background-color: #A259FF !important;
+    color: white;
+    text-decoration: none;
+}
+
+.front-banner {
+    border: none !important;
+}
+
+.text-box-front-banner h1 {
+    font-family: "worksens";
+    font-size: 67px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.text-box-front-banner p {
+    font-family: "worksens";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.banner-btn {
+    background-color: #A259FF !important;
+    border-radius: 20px !important;
+
+}
+
+.banner-btn i {
+    background-color: #A259FF !important;
+}
+
+.top-creater-btn {
+    border-radius: 25px !important;
+    border: 1px solid #A259FF !important;
+}
+
+.ranking-child-card-main {
+    border-radius: 20px;
+    background-color: #3B3B3B !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.discover-nft-child {
+    border-radius: 20px;
+    background-color: #3B3B3B !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+
+}
+
+.lower-card {
+    border-radius: 20px;
+    background-color: #3B3B3B !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.input-section-lower input {
+    background-color: white !important;
+}
+
+.footer-icons i {
+    font-size: 30px;
+
+}
+
+.footer-icons a {
+    color: white;
+
+}
+
+.footer-list ul li {
+    list-style: none
+}
+
+.footer-list ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.input-section-market-place input {
+    background-color: #2B2B2B !important;
+    border: 2px solid #3B3B3B !important;
+
+
+}
+
+.input-section-market-place input::placeholder {
+    color: grey;
+    opacity: 1;
+    /* Firefox */
+}
+
+.input-section-market-place i {
+    font-size: 25px !important;
+    /* color: white !important; */
+}
+
+.rankings {
+    border: 2px solid #2B2B2B !important;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-main a {
+    text-decoration: none;
+    color: white;
+
+}
+
+h4 {
+    padding: 0 23px;
+    white-space: nowrap;
+}
+.main-input input::placeholder {
+    color: grey;
+    opacity: 1;
+    color: white;
+    /* Firefox */
+}
+@media (max-width:768px) {
+    .main-front-banner {
+        flex-direction: column-reverse;
+    }
+
+    .front-banenr-title h1 {
+        font-size: 40px;
+    }
+
+    .lower-text h3 {
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+
+    .lower-text p {
+        font-size: 10px;
+        font-weight: 600;
+
+    }
+
+    .input-section-lower {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ranking-special {
+        display: none;
+    }
+
+    .ranking-text-box-text {
+        font-size: 15px;
+
+    }
+
+    .main-text-box-ranking {
+        font-size: 15px;
+    }
+
+    .ranking-grand-children h5 {
+        font-size: 15px;
+        text-align: center !important;
+
+    }
+
+    .ranking-avatar img {
+        width: 100%;
+    }
+
+    .no-of-artists {
+        font-size: 10px;
+    }
+
+
+}
+
+@media (max-width:576px) {
+    .rankings {
+
+        flex-direction: row;
+    }
+
+    .ranking-child {
+        width: 50% !important;
+    }
+
+    .ranking-text-box-text {
+        font-size: 8px;
+    }
+
+    .main-text-box-ranking {
+        font-size: 8px;
+    }
+
+    .ranking-grand-children h5 {
+        font-size: 8px;
+        text-align: center !important;
+
+    }
+
+    .ranking-avatar img {
+        width: 100%;
+        align-items: center;
+        display: flex;
+    }
+
+    .no-of-artists {
+        font-size: 10px;
+    }
+}
